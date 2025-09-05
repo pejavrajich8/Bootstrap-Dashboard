@@ -1,5 +1,7 @@
 @use 'variables' as v;
 
+
+
 html, body {
     height: 100%;
     margin: 0;
@@ -19,6 +21,11 @@ body {
 
 .big-text {
     font-size: 7rem;
+}
+
+.btn-primary {
+    background-color: v.$primary;
+
 }
 
 
