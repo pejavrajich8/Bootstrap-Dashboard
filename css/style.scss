@@ -1,0 +1,24 @@
+@use 'variables' as v;
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url('/images/IMG_7868.png');
+  background-repeat: no-repeat;         
+  background-size: cover;               
+  background-blend-mode: darken;        
+}
+
+.purple-braces {
+     color: v.$primary;
+}
+
+.big-text {
+    font-size: 7rem;
+}
+
+
