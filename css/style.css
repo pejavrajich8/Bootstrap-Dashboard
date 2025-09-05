@@ -1,6 +1,9 @@
 html, body {
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -15,9 +18,44 @@ body {
 }
 
 .big-text {
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
-.btn-primary {
+.btn-learning {
   background-color: #8b37ff;
+  border-color: #8b37ff;
+  border-radius: 40px;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  font-size: 1.5rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 120px;
+}
+
+.icon i {
+  margin-bottom: 10px;
+}
+
+.icon h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pipe {
+  border-right: 1px solid rgba(204, 204, 204, 0.4588235294);
+}
+
+.pipe2 {
+  border-left: 1px solid rgba(204, 204, 204, 0.4588235294);
+}
+
+footer {
+  background-color: rgb(197, 195, 195);
+  padding: 40px;
 }/*# sourceMappingURL=style.css.map */
